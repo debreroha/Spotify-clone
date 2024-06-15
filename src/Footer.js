@@ -31,6 +31,7 @@ function Footer({ spotify }) {
     });
   }, [spotify]);
 
+  // handle play pause button
   const handlePlayPause = () => {
     if (playing) {
       spotify.pause();
