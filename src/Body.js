@@ -68,6 +68,7 @@ function Body({ spotify }) {
       });
   };
 
+  // return part
   return (
     <div className="body">
       <Header spotify={spotify} />
