@@ -66,6 +66,7 @@ function App() {
     }
   }, [token, dispatch]);
 
+  // return the output
   return (
     <div className="app">
       {!token && <Login />}
