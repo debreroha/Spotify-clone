@@ -14,6 +14,7 @@ import { Grid, Slider } from "@material-ui/core";
 function Footer({ spotify }) {
   const [{ token, item, playing }, dispatch] = useStateValue();
 
+  // useEffect part 
   useEffect(() => {
     spotify.getMyCurrentPlaybackState().then((r) => {
       console.log(r);
