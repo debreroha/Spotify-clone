@@ -35,6 +35,7 @@ function App() {
         })
       );
 
+      // get top artists
       s.getMyTopArtists().then((response) =>
         dispatch({
           type: "SET_TOP_ARTISTS",
