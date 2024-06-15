@@ -11,6 +11,7 @@ const s = new SpotifyWebApi();
 function App() {
   const [{ token }, dispatch] = useStateValue();
 
+  // fetching data from outside
   useEffect(() => {
     // Set token
     const hash = getTokenFromResponse();
