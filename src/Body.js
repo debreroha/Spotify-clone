@@ -39,6 +39,7 @@ function Body({ spotify }) {
       });
   };
 
+  // play song
   const playSong = (id) => {
     spotify
       .play({
