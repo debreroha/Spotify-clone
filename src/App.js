@@ -48,6 +48,7 @@ function App() {
         spotify: s,
       });
 
+      // get me dispatch
       s.getMe().then((user) => {
         dispatch({
           type: "SET_USER",
