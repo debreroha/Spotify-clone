@@ -63,6 +63,7 @@ function Footer({ spotify }) {
     });
   };
 
+  
   // skip previous button
   const skipPrevious = () => {
     spotify.skipToPrevious();
