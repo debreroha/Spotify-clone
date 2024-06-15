@@ -56,6 +56,7 @@ function App() {
         });
       });
 
+      // get user playlists
       s.getUserPlaylists().then((playlists) => {
         dispatch({
           type: "SET_PLAYLISTS",
