@@ -48,6 +48,7 @@ function Footer({ spotify }) {
     }
   };
 
+  // skip next button
   const skipNext = () => {
     spotify.skipToNext();
     spotify.getMyCurrentPlayingTrack().then((r) => {
