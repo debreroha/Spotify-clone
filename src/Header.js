@@ -8,6 +8,7 @@ import { useEffect } from "react";
 function Header({ spotify }) {
   const [{ user }, dispatch] = useStateValue();
 
+  // return part
   return (
     <div className="header">
       <div className="header__left">
