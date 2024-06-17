@@ -10,6 +10,7 @@ export const initialState = {
   item: null,
 };
 
+// reducer
 const reducer = (state, action) => {
   console.log(action);
   switch (action.type) {
